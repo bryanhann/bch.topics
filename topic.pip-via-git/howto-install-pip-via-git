@@ -1,0 +1,4 @@
+
+#git clone https://github.com/srsudar/eg.git
+pip install git+https://github.com/srsudar/eg.git
+
