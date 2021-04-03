@@ -1,0 +1,11 @@
+foo () {
+while [ true ]; do
+    read path 
+    [ -z ${path} ] && break
+    name=$(basename $path)
+    echo aws move $path s3://bch.archive.void/$name
+done
+}
+
+
+r20_ws852 
